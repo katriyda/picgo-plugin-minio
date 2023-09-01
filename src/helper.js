@@ -28,7 +28,8 @@ module.exports = {
       origin = config.customDomain
     }
 
-    return `${origin}/${config.bucket}/`
+    // return `${origin}/${config.bucket}/`
+    return `${origin}/`
   },
 
   // 基础目录配置
